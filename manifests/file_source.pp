@@ -1,3 +1,3 @@
 file {'/etc/motd':
-source => '/files/motd.txt',
+source => 'https://github.com/maddi-hass/Puppet/blob/master/files/motd.txt',
 }
