@@ -1,5 +1,5 @@
 file {'/etc/mode':
-  ensure => present;
+  ensure => present,
   owner => 'maddi',
   mode => '0644',
 }
