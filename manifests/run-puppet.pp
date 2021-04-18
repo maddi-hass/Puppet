@@ -9,4 +9,3 @@ cron { 'run-puppet':
   hour    => '*',
   minute  => '*/15',
 }
-
